@@ -40,7 +40,7 @@ public class TestConfig implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		User u1 = new User("Maria Brown", "maria@gmail.com", "988888888", Encrypt.encrypt("15151515"));
+		User u1 = new User("Maria Brown", "maria@gmail.com", "988878888", Encrypt.encrypt("15151515"));
 		User u2 = new User("Alex Green", "alex@gmail.com", "977777777", Encrypt.encrypt("1515151556556"));
 
 		Order o1 = new Order(Instant.parse("2019-06-20T19:53:07Z"), OrderStatus.PAID, u1);
